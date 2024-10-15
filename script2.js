@@ -15,19 +15,32 @@ function coordenadasy(vy) {
 
 
 function executeCommands() {
+    let ball = document.getElementById("ball");
     if (x == 1 && y == 1) {
-        
+        ball.style.left = "50%"
+        ball.style.top = "3%"
     }
+
     else if (x == -1 && y == 1) {
+        ball.style.left = "50%"
+        ball.style.top = "3%"
+
 
     }
     else if (x == -1 && y == -1) {
+        ball.style.left = "50%"
+        ball.style.top = "18%"
 
     }
     else if (x == 1 && y == -1) {
+        ball.style.left = "50%"
+        ball.style.top = "18%"
+
 
     }
 }
+
+
 
 // Removido a função de mover
 

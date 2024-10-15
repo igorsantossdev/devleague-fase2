@@ -76,7 +76,7 @@ body {
 }
 
 /* Bola pequena ajustada proporcionalmente */
-.ball {
+#ball {
     position: absolute;
     width: 4.1667%; /* Ajuste proporcional à bola principal */
     height: 4.1667%; /* 1/4 da altura do jogador (16.6667% / 4) */
@@ -86,7 +86,7 @@ body {
     left: 50%; /* Posiciona horizontalmente no meio do campo */
     transform: translate(-50%, -50%); /* Centraliza em ambas as direções */
     z-index: 3;
-    transition: 0.5s ease-in;
+    transition: 0.5s;
 }
 
 /* Goleiro ajustado */
